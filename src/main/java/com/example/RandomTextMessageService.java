@@ -1,13 +1,10 @@
 package com.example;
 
-import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-@Component("messageRandomService")
 
 public class RandomTextMessageService implements MessageService {
     List<String> messages = new ArrayList<>(Arrays.asList("Marek", "Andrzej", "Dawid", "Michal", "Karol", "Marek", "Pawel", "Gienio", "Lukasz", "Kacper"));
